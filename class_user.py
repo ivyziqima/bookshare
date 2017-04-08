@@ -1,6 +1,6 @@
 import util
 
-class User(object):
+class user(object):
     '''
     A user object is constructed when a user search for a book
     Attributes: subject, author, keyword
