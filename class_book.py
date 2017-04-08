@@ -13,11 +13,9 @@ class book(object):
         book.rating = rating
         book.recommender = recommender
     
-    def add_review(self, user, review):
+    def add_review(self, review):
         self.review = review
 
-    def add_rating(self, user, rating):
-        self.rating = rating
 
 
 
